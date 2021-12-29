@@ -1,0 +1,190 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --hover-button-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-white-color);
+}
+
+.logo1part {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--hover-button-color);
+}
+
+.logo2part {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-black-color);
+  text-decoration: none;
+}
+
+.nav-list-header .link {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin-right: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-list-header {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav-list-header .link:hover,
+.nav-list-header .link:focus {
+  color: var(--hover-button-color);
+}
+
+.auto-nav .auto-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin-right: 50px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.auto-nav .auto-link:hover,
+.auto-nav .auto-link:focus {
+  color: var(--hover-button-color);
+}
+
+.auto-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 215px;
+  padding-right: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  margin-left: 8px;
+  border-radius: 4px;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+}
+
+.buttons .button:hover,
+.buttons .button:focus {
+  background-color: var(--hover-button-color);
+  color: var(--primary-white-color);
+}
+
+.bar {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: #2f303a;
+}
+.title-bar {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+}
+
+.button-bar {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: var(--hover-button-color);
+  color: var(--primary-white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
+
+.hidden {
+  display: none;
+}
+
+.opportunity {
+}
+
+.opportunities h3 {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.opportunities p {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
