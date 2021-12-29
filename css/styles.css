@@ -4,6 +4,7 @@
   --hover-button-color: #2196f3;
   --primary-white-color: #ffffff;
   --primary-black-color: #000000;
+  --primary-bar-color: #2f303a;
 }
 
 body {
@@ -37,15 +38,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-right: 20px;
-  display: inline-block;
   text-decoration: none;
 }
 
 .nav-list-header {
   list-style: none;
-  display: flex;
-  align-items: flex-start;
 }
 
 .nav-list-header .link:hover,
@@ -60,8 +57,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-right: 50px;
-  display: inline-block;
   text-decoration: none;
 }
 
@@ -72,32 +67,15 @@ body {
 
 .auto-nav {
   list-style: none;
-  display: flex;
-  align-items: center;
 }
 
 .page-header {
-  padding-top: 22px;
-  padding-bottom: 22px;
-  padding-left: 215px;
-  padding-right: 215px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 nav {
-  padding-top: 22px;
-  padding-bottom: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .buttons {
   list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .button {
@@ -112,7 +90,7 @@ nav {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.65;
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
@@ -129,7 +107,7 @@ nav {
   height: 600px;
   left: 0px;
   top: 80px;
-  background-color: #2f303a;
+  background-color: var(--primary-bar-color);
 }
 .title-bar {
   color: var(--primary-white-color);
@@ -141,10 +119,6 @@ nav {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
 }
 
 .button-bar {
@@ -159,7 +133,7 @@ nav {
   color: var(--primary-white-color);
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.06em;
 }
 
@@ -175,7 +149,7 @@ nav {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -185,6 +159,82 @@ nav {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.about-name {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about-pictures {
+  list-style: none;
+}
+
+.community {
+  list-style: none;
+}
+
+.name {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: var(--primary-bar-color);
+}
+
+.logo3part {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.address {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-list {
+  list-style: none;
 }
