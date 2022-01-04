@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--primary-white-color);
 }
-
+/* Header общий */
 .logo1part {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -69,7 +69,9 @@ body {
 .auto-nav {
   list-style: none;
 }
+/* Конец общего header */
 
+/* Кнопки Портфолио */
 .buttons {
   list-style: none;
 }
@@ -98,6 +100,7 @@ body {
   color: var(--primary-white-color);
 }
 
+/* Бар Студио */
 .bar {
   width: 1600px;
   height: 600px;
@@ -133,6 +136,7 @@ body {
   letter-spacing: 0.06em;
 }
 
+/* Спрятать hidden  заголовки */
 .hidden {
   display: none;
 }
@@ -194,6 +198,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Общий footer */
 .footer {
   background-color: var(--primary-bar-color);
 }
@@ -236,6 +241,7 @@ body {
 .footer-link:hover {
   color: var(--hover-button-color);
 }
+
 /* Main Портфолио */
 .samples {
   list-style: none;
