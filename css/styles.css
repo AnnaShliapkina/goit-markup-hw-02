@@ -215,26 +215,25 @@ nav {
   text-decoration: none;
 }
 
-.address {
+.footer-list {
   color: var(--primary-white-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-
-.footer-mail,
-.footer-tel {
-  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
+  list-style: none;
 }
 
-.footer-list {
-  list-style: none;
+.footer-mail,
+.footer-tel {
+  color: var(--primary-white-color);
+  opacity: 0.6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
