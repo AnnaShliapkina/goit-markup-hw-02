@@ -70,11 +70,6 @@ body {
   list-style: none;
 }
 
-.page-header {
-}
-nav {
-}
-
 .buttons {
   list-style: none;
 }
@@ -140,9 +135,6 @@ nav {
 
 .hidden {
   display: none;
-}
-
-.opportunity {
 }
 
 .opportunities h3 {
@@ -217,13 +209,6 @@ nav {
 }
 
 .footer-list {
-  color: var(--primary-white-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-decoration: none;
   list-style: none;
 }
 
@@ -235,4 +220,40 @@ nav {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.address {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.address:hover,
+.address:focus .footer-link:focus,
+.footer-link:hover {
+  color: var(--hover-button-color);
+}
+/* Main Портфолио */
+.samples {
+  list-style: none;
+}
+li h2 {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+li p {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
