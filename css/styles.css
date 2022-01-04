@@ -4,7 +4,8 @@
   --hover-button-color: #2196f3;
   --primary-white-color: #ffffff;
   --primary-black-color: #000000;
-  --primary-bar-color: #2f303a;
+  --primary-bar-color: hsl(235, 10%, 21%);
+  --primary-white-color-60: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -226,10 +227,8 @@ nav {
   list-style: none;
 }
 
-.footer-mail,
-.footer-tel {
-  color: var(--primary-white-color);
-  opacity: 0.6;
+.footer-link {
+  color: var(--primary-white-color-60);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
