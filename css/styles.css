@@ -6,35 +6,29 @@
   --primary-black-color: #000000;
   --primary-bar-color: hsl(235, 10%, 21%);
   --primary-white-color-60: rgba(255, 255, 255, 0.6);
+  --primary-light-color-button: #f5f4fa;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--primary-white-color);
 }
 /* Header общий */
-.logo1part {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--hover-button-color);
+  text-decoration: none;
 }
 
-.logo2part {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+.logo-dark {
   color: var(--primary-black-color);
-  text-decoration: none;
 }
 
 .nav-list-header .link {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,7 +47,6 @@ body {
 
 .auto-nav .auto-link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -78,20 +71,14 @@ body {
 
 .button {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
-  margin-left: 8px;
-  border-radius: 4px;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-  font-style: normal;
+  background-color: var(--primary-light-color-button);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.65;
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
+  cursor: pointer;
 }
 
 .buttons .button:hover,
@@ -102,10 +89,6 @@ body {
 
 /* Бар Студио */
 .bar {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background-color: var(--primary-bar-color);
 }
 .title-bar {
@@ -117,44 +100,39 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  position: absolute;
 }
 
 .button-bar {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  margin-top: 30px;
   border-radius: 4px;
   background-color: var(--hover-button-color);
   color: var(--primary-white-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Спрятать hidden  заголовки */
 .hidden {
   display: none;
 }
+.opportunities {
+  list-style: none;
+}
 
-.opportunities h3 {
+.opportunities .name {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.opportunities p {
+.opportunities .meaning {
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -162,11 +140,9 @@ body {
 
 .about-name {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -190,11 +166,9 @@ body {
 
 .position {
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -203,14 +177,8 @@ body {
   background-color: var(--primary-bar-color);
 }
 
-.logo3part {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+.logo-light {
   color: var(--primary-white-color);
-  text-decoration: none;
 }
 
 .footer-list {
@@ -219,22 +187,24 @@ body {
 
 .footer-link {
   color: var(--primary-white-color-60);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
+  /* без font-style шрифт italic  */
+  font-style: normal;
 }
 
 .address {
   color: var(--primary-white-color);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
+  /* без font-style шрифт italic  */
+  font-style: normal;
 }
 .address:hover,
 .address:focus .footer-link:focus,
@@ -246,19 +216,17 @@ body {
 .samples {
   list-style: none;
 }
-li h2 {
+.project-name {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-li p {
+.project-type {
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
